@@ -1,0 +1,20 @@
+body{
+  font-family: Verdana, sans-serif;
+}
+label{
+  width:200px;
+  clear:left;
+  float:left;
+}
+input{
+  margin:2px 0 2px 0;
+  float:left;
+}
+.required:after {
+    color: #e32;
+    display:inline;
+    content: ' *';
+}
+.foutmeldingen{
+  color:red;
+}
